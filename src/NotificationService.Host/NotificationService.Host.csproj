@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <Import Project="..\..\Dependencies.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <PreserveCompilationContext>true</PreserveCompilationContext>
+        <CopyRefAssembliesToPublishDirectory>true</CopyRefAssembliesToPublishDirectory>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="$(MicrosoftAspNetCoreOpenApiVersion)"/>
+        <PackageReference Include="RestEase" Version="$(RestEaseVersion)" />
+        <PackageReference Include="Serilog" Version="$(SerilogVersion)" />
+        <PackageReference Include="Serilog.Sinks.File" Version="$(SerilogSinksFileVersion)" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="$(SerilogSinksConsoleVersion)" />
+        <PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCoreVersion)" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="$(SerilogSettingsConfigurationVersion)" />
+        <PackageReference Include="Elastic.CommonSchema.Serilog" Version="$(ElasticCommonSchemaSerilogVersion)" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCoreVersion)"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NotificationService.Api.Contracts\NotificationService.Api.Contracts.csproj" />
+      <ProjectReference Include="..\NotificationService.AppServices\NotificationService.AppServices.csproj" />
+      <ProjectReference Include="..\NotificationService.Entities\NotificationService.Entities.csproj" />
+    </ItemGroup>
+
+</Project>
