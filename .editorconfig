@@ -1,0 +1,35 @@
+root = true
+
+[*.cs]
+# Неиспользуемые using — красным
+dotnet_diagnostic.IDE0005.severity = error
+
+# Лишние пустые строки — красным (StyleCop)
+dotnet_diagnostic.SA1507.severity = error
+
+# Разделение членов пустой строкой — мягче
+dotnet_diagnostic.SA1516.severity = warning
+
+# ===== Документация: требуем только наличие, без автотекста =====
+dotnet_diagnostic.SA1600.severity = error
+dotnet_diagnostic.SA1604.severity = error
+dotnet_diagnostic.SA1611.severity = error
+dotnet_diagnostic.SA1615.severity = error
+dotnet_diagnostic.SA1623.severity = none
+dotnet_diagnostic.SA1629.severity = error
+
+# Прочие отключения/ослабления
+dotnet_diagnostic.SA1309.severity = none
+dotnet_diagnostic.SA1200.severity = none
+dotnet_diagnostic.SA1633.severity = none
+dotnet_diagnostic.SA1204.severity = none
+dotnet_diagnostic.SA1133.severity = none
+dotnet_diagnostic.CS8618.severity = none
+dotnet_diagnostic.SA1101.severity = none
+dotnet_diagnostic.SA1316.severity = none
+dotnet_diagnostic.SA1201.severity = none
+dotnet_diagnostic.CS8603.severity = none
+
+# Стиль namespace и using
+csharp_style_namespace_declarations = block_scoped:error
+csharp_using_directive_placement    = outside_namespace:error

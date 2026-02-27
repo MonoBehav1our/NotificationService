@@ -1,0 +1,41 @@
+<Project>
+  <PropertyGroup>
+    <!-- ASP.NET Core -->
+    <MicrosoftAspNetCoreOpenApiVersion>8.0.2</MicrosoftAspNetCoreOpenApiVersion>
+    <SwashbuckleAspNetCoreVersion>6.4.0</SwashbuckleAspNetCoreVersion>
+
+    <!-- Serilog -->
+    <SerilogVersion>3.1.1</SerilogVersion>
+    <SerilogSinksFileVersion>5.0.0</SerilogSinksFileVersion>
+    <SerilogSinksConsoleVersion>5.0.0</SerilogSinksConsoleVersion>
+    <SerilogAspNetCoreVersion>8.0.0</SerilogAspNetCoreVersion>
+    <SerilogSettingsConfigurationVersion>8.0.0</SerilogSettingsConfigurationVersion>
+    <ElasticCommonSchemaSerilogVersion>8.6.1</ElasticCommonSchemaSerilogVersion>
+
+    <!-- Microsoft Extensions -->
+    <MicrosoftExtensionsConfigurationVersion>8.0.0</MicrosoftExtensionsConfigurationVersion>
+    <MicrosoftExtensionsConfigurationJsonVersion>8.0.0</MicrosoftExtensionsConfigurationJsonVersion>
+    <MicrosoftExtensionsLoggingAbstractionsVersion>8.0.0</MicrosoftExtensionsLoggingAbstractionsVersion>
+    <MicrosoftExtensionsConfigurationEnvironmentVariablesVersion>8.0.0</MicrosoftExtensionsConfigurationEnvironmentVariablesVersion>
+    <MicrosoftExtensionsOptionsConfigurationExtensionsVersion>8.0.0-rc.1.23419.4</MicrosoftExtensionsOptionsConfigurationExtensionsVersion>
+
+    <!-- Entity Framework -->
+    <NpgsqlEntityFrameworkCorePostgreSQLVersion>7.0.0</NpgsqlEntityFrameworkCorePostgreSQLVersion>
+    <MicrosoftEntityFrameworkCoreInMemoryVersion>7.0.0</MicrosoftEntityFrameworkCoreInMemoryVersion>
+
+    <!-- Email and Templates -->
+    <MailKitVersion>4.3.0</MailKitVersion>
+    <RazorLightVersion>2.3.1</RazorLightVersion>
+    <RestEaseVersion>1.6.4</RestEaseVersion>
+
+    <!-- Database Migrations -->
+    <DbUpPostgreSqlVersion>5.0.37</DbUpPostgreSqlVersion>
+
+    <!-- Testing -->
+    <AutoFixtureVersion>4.18.1</AutoFixtureVersion>
+    <MicrosoftNetTestSdkVersion>17.5.0</MicrosoftNetTestSdkVersion>
+    <NSubstituteVersion>5.0.0</NSubstituteVersion>
+    <XUnitVersion>2.4.2</XUnitVersion>
+    <XUnitRunnerVisualStudioVersion>2.4.5</XUnitRunnerVisualStudioVersion>
+  </PropertyGroup>
+</Project>

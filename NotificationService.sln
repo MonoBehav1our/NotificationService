@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Host", "src\NotificationService.Host\NotificationService.Host.csproj", "{D5AFD433-90D3-48A2-A336-EF818C07B08A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.AppServices", "src\NotificationService.AppServices\NotificationService.AppServices.csproj", "{48E11CBF-1DDD-436B-BD51-524D4F0A9166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.AppServices.Contracts", "src\NotificationService.AppServices.Contracts\NotificationService.AppServices.Contracts.csproj", "{06B477D2-EB0D-49C6-944E-0A8CAD1D9941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Api.Contracts", "src\NotificationService.Api.Contracts\NotificationService.Api.Contracts.csproj", "{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Entities", "src\NotificationService.Entities\NotificationService.Entities.csproj", "{33DE044D-FBF9-483C-8212-8805C87EBDD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Migrations.PostgreSql", "src\NotificationService.Migrations.PostgreSql\NotificationService.Migrations.PostgreSql.csproj", "{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_tests", "_tests", "{642F6E21-6B94-4F4B-90AD-19175F121249}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.AppServices.UnitTests", "tests\NotificationService.AppServices.UnitTests\NotificationService.AppServices.UnitTests.csproj", "{62A54398-B3F3-4C97-A2C2-FBA02FC886A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.RazorTemplates", "src\NotificationService.RazorTemplates\NotificationService.RazorTemplates.csproj", "{E4337421-100E-44EA-8067-036D0811D640}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".SolutionItems", ".SolutionItems", "{82D88970-A297-4F43-82F2-663AA7C54E18}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D5AFD433-90D3-48A2-A336-EF818C07B08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5AFD433-90D3-48A2-A336-EF818C07B08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5AFD433-90D3-48A2-A336-EF818C07B08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5AFD433-90D3-48A2-A336-EF818C07B08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E11CBF-1DDD-436B-BD51-524D4F0A9166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E11CBF-1DDD-436B-BD51-524D4F0A9166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E11CBF-1DDD-436B-BD51-524D4F0A9166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E11CBF-1DDD-436B-BD51-524D4F0A9166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06B477D2-EB0D-49C6-944E-0A8CAD1D9941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06B477D2-EB0D-49C6-944E-0A8CAD1D9941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06B477D2-EB0D-49C6-944E-0A8CAD1D9941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06B477D2-EB0D-49C6-944E-0A8CAD1D9941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DE044D-FBF9-483C-8212-8805C87EBDD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DE044D-FBF9-483C-8212-8805C87EBDD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DE044D-FBF9-483C-8212-8805C87EBDD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DE044D-FBF9-483C-8212-8805C87EBDD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A54398-B3F3-4C97-A2C2-FBA02FC886A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A54398-B3F3-4C97-A2C2-FBA02FC886A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A54398-B3F3-4C97-A2C2-FBA02FC886A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A54398-B3F3-4C97-A2C2-FBA02FC886A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4337421-100E-44EA-8067-036D0811D640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4337421-100E-44EA-8067-036D0811D640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4337421-100E-44EA-8067-036D0811D640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4337421-100E-44EA-8067-036D0811D640}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D5AFD433-90D3-48A2-A336-EF818C07B08A} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{48E11CBF-1DDD-436B-BD51-524D4F0A9166} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{06B477D2-EB0D-49C6-944E-0A8CAD1D9941} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{D2041A6C-FDD3-4BDE-8DA3-E921D9596E72} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{33DE044D-FBF9-483C-8212-8805C87EBDD6} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{E2000E04-DEB7-4C55-9D37-C6EC824DB8FA} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+		{62A54398-B3F3-4C97-A2C2-FBA02FC886A6} = {642F6E21-6B94-4F4B-90AD-19175F121249}
+		{E4337421-100E-44EA-8067-036D0811D640} = {2E16F8B2-9C88-497A-AD5B-A5CFC2D6DA1C}
+	EndGlobalSection
+EndGlobal

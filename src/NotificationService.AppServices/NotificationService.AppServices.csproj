@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\Dependencies.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\NotificationService.RazorTemplates\NotificationService.RazorTemplates.csproj" />
+      <ProjectReference Include="..\NotificationService.AppServices.Contracts\NotificationService.AppServices.Contracts.csproj" />
+      <ProjectReference Include="..\NotificationService.Entities\NotificationService.Entities.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MailKit" Version="$(MailKitVersion)" />
+      <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="$(MicrosoftExtensionsOptionsConfigurationExtensionsVersion)" />
+      <PackageReference Include="RazorLight" Version="$(RazorLightVersion)" />
+    </ItemGroup>
+
+
+</Project>
